@@ -9,9 +9,12 @@ export default function Hero() {
         3rd year Computing student at Queen's University specializing in Cybersecurity
       </p>
 
-      <button className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+      <a
+        href="#projects"
+        className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+      >
         View My Projects
-      </button>
+      </a>
     </section>
   )
 }
