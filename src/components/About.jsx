@@ -1,25 +1,52 @@
 export default function About() {
   return (
-    <section id="about" className="py-16 px-8 bg-white">
+    <section id="about" className="py-20 px-8 bg-slate-50">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl font-bold text-gray-900 mb-6">
+
+        <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
           About Me
         </h2>
 
-        <p className="text-lg text-gray-600 leading-8 mb-6">
-          I’m Ayobami Popoola, a third-year Bachelor of Computing (Honours)
-          student at Queen’s University, specializing in cybersecurity. I enjoy
+        <p className="text-lg text-slate-600 leading-8 mb-6">
+          I&apos;m <span className="text-blue-600 font-semibold">Ayobami Popoola</span>, a third-year Bachelor of Computing (Honours)
+          student at Queen&apos;s University, specializing in cybersecurity. I enjoy
           building projects at the intersection of software development and
           security, with experience in Python, FastAPI, React, SQL, and
           Linux-based systems.
         </p>
 
-        <p className="text-gray-600 leading-7">
-          I’m particularly interested in secure backend systems, risk analysis,
-          and solving real-world technical problems through hands-on projects and
-          continuous learning.
+        <p className="text-slate-600 leading-7">
+          I&apos;m particularly interested in <span className="text-blue-600 font-medium">secure backend systems</span>, 
+          risk analysis, and solving real-world technical problems through 
+          hands-on projects and continuous learning.
         </p>
+
       </div>
     </section>
   )
 }
+// export default function About() {
+//   return (
+//     <section id="about" className="py-16 px-8 bg-white">
+//       <div className="max-w-4xl mx-auto text-center">
+//         <h2 className="text-3xl font-bold text-gray-900 mb-6">
+//           About Me
+//         </h2>
+
+//         <p className="text-lg text-gray-600 leading-8 mb-6">
+//           I&apos;m Ayobami Popoola, a third-year Bachelor of Computing (Honours)
+//           student at Queen&apos;s University, specializing in cybersecurity. I enjoy
+//           building projects at the intersection of software development and
+//           security, with experience in Python, FastAPI, React, SQL, and
+//           Linux-based systems.
+//         </p>
+
+//         <p className="text-gray-600 leading-7">
+//           I&apos;m particularly interested in secure backend systems, risk analysis,
+//           and solving real-world technical problems through hands-on projects and
+//           continuous learning.
+//         </p>
+//       </div>
+//     </section>
+//   )
+// }
