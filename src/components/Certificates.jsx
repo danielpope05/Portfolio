@@ -1,4 +1,4 @@
-import certImg from "../assets/cert.jpg";
+import certImg from "../assets/cert.JPG";
 
 export default function Certificates() {
   return (
