@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <section className="h-screen flex flex-col items-center justify-center text-center bg-gray-100">
-      <h1 className="text-5xl font-bold mb-4">
+      <h1 className="text-5xl font-bold mb-4 text-gray-900">
         Hi, I'm Ayobami Popoola
       </h1>
 
