@@ -2,7 +2,7 @@ export default function Skills() {
   const skillGroups = [
     {
       title: "Programming",
-      skills: ["Python", "Java", "C/C++", "C#", "JavaScript", "SQL"],
+      skills: ["Python", "Java", "C/C++", "C#", "JavaScript", "PHP", "SQL"],
     },
     {
       title: "Frontend",
@@ -18,7 +18,7 @@ export default function Skills() {
     },
     {
       title: "Testing",
-      skills: ["Pytest", "Playwright"],
+      skills: ["Pytest", "Selenium", "Playwright"],
     },
     {
       title: "Mobile",

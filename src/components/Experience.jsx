@@ -62,7 +62,7 @@ export default function Experience() {
       ],
     },
     {
-      title: "Peer Tutor",
+      title: "Academic Tutor",
       organization: "Licence 2 Learn",
       date: "Sep 2022 – Apr 2023",
       highlights: [
