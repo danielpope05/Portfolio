@@ -1,27 +1,40 @@
-import { FaFutbol, FaCamera, FaHiking, FaCube } from "react-icons/fa"
+import { FaFutbol, FaCamera, FaCube, FaBook, FaPen, FaTshirt } from "react-icons/fa"
 
 export default function Interests() {
   const interests = [
     {
-      title: "Football",
+      title: "Sports",
       icon: <FaFutbol />,
-      description: "Passionate about playing and following the sport, building teamwork and discipline.",
+      description: "Play a variety of sports and aim to try as many as possible. Football is my favorite, along with basketball, volleyball, tchoukball, ping pong, golf, and pickleball.",
     },
     {
       title: "Photography",
       icon: <FaCamera />,
-      description: "Enjoy capturing moments and exploring creative perspectives through visual storytelling.",
+      description: "Capture moments and explore creative perspectives through visual storytelling.",
     },
     {
-      title: "Hiking",
-      icon: <FaHiking />,
-      description: "Interested in outdoor exploration and staying active through nature-based activities.",
+      title: "Fashion",
+      icon: <FaTshirt />,
+      description: "Enjoy putting together outfits and always aiming to look presentable."
     },
     {
-      title: "3D Modeling",
+      title: "3D Modeling and Animation",
       icon: <FaCube />,
-      description: "Create 3D designs using Blender, exploring creativity in digital environments.",
+      description: "Create 3D designs using Blender and explore creativity in digital environments.",
     },
+     // ✅ NEW ONE
+  {
+    title: "Reading",
+    icon: <FaBook />,
+    description: "Read a wide range of books to explore new ideas and perspectives.",
+  },
+
+  // ✅ NEW ONE
+  {
+    title: "Journaling",
+    icon: <FaPen />,
+    description: "Write down goals and reflections, tracking progress and setting short- and long-term objectives.",
+  },
   ]
 
   return (
