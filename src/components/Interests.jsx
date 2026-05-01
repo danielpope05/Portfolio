@@ -15,7 +15,7 @@ export default function Interests() {
     {
       title: "Fashion",
       icon: <FaTshirt />,
-      description: "Enjoy putting together outfits and always aiming to look presentable."
+      description: "Love always looking presentable."
     },
     {
       title: "3D Modeling and Animation",
