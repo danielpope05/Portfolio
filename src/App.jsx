@@ -1,13 +1,13 @@
-import Navbar from "./components/Navbar"
-import Hero from "./components/Hero"
-import About from "./components/About"
-import Projects from "./components/Projects"
-import Skills from "./components/Skills"
-import Experience from "./components/Experience"
-import Interests from "./components/Interests"
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import WorkExperience from "./components/WorkExperience";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import LeadershipExperience from "./components/LeadershipExperience";
 import Certificates from "./components/Certificates";
-import Contact from "./components/Contact"
-
+import Interests from "./components/Interests";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -15,14 +15,22 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+
+      <WorkExperience />
+
       <Projects />
+
       <Skills />
-      <Experience />
-      <Interests />
+
+      <LeadershipExperience />
+
       <Certificates />
+
+      <Interests />
+
       <Contact />
     </div>
-  )
+  );
 }
 
 export default App
