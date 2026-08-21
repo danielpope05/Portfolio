@@ -4,7 +4,7 @@ export default function WorkExperience() {
       title: "Activity Leader",
       organization: "Centre of English Studies (CES)",
       location: "Toronto, ON",
-      date: "June 2026 – July 2026",
+      date: "June 2026 – August 2026",
       highlights: [
         "Guided and supervised 100+ international students during cultural and recreational activities across Toronto.",
         "Collaborated with 24+ activity leaders and external partners to deliver 25+ activities for over 400 international students.",
